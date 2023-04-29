@@ -5,10 +5,10 @@ class DartsTravel extends React.Component {
     this.selectMap = this.selectMap.bind(this);
     this.throwDart = this.throwDart.bind(this);
     this.maps = [
-      { id: 0, name: "JR東日本 東京近郊路線図", url: "http://jasf.org/rosenzu/map_tokyo.png" },
-      { id: 1, name: "東京メトロ 地下鉄路線図", url: "https://www.tokyometro.jp/library/svg_map/img/jp/all.png" },
-      { id: 2, name: "メイク 東京広域路線図", url: "http://www.meik.jp/2rosenzu/jpg_640/tokyokoiki_a3.jpg" },
-      { id: 3, name: "メイク 東京・横浜・千葉路線図", url: "http://www.meik.jp/2rosenzu/jpg_640/tkyo_yko_chba.jpg" }
+      { id: 0, name: "JR東日本 東京近郊路線図（車内掲出版）", url: "https://i.imgur.com/osrDFxe.png" },
+      { id: 1, name: "JR東日本 東京近郊エリア拡大図", url: "https://i.imgur.com/unU08wb.png" },
+      { id: 2, name: "JR東日本 関東・甲信越エリア", url: "https://i.imgur.com/HxCwhCP.png" },
+      { id: 3, name: "東京メトロ 地下鉄路線図", url: "https://www.tokyometro.jp/library/svg_map/img/jp/all.png" },
     ];
   }
 
